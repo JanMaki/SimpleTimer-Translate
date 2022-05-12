@@ -1,5 +1,3 @@
 files:
-  - source: '*.yml'
-    ignore:
-      - /*/*.yml
+  - source: /*.yml
     translation: '%original_file_name%'
