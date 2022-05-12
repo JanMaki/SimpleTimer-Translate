@@ -1,0 +1,16 @@
+timer:
+  minutes: "%0%分"
+  seconds: "%0%秒"
+  start: "タイマーを開始しました %0%"
+  minutesLeftNotice: "残り%0%です"
+  add: "タイマーを%0%延長しました"
+  minus: "タイマーを%0%短縮しました"
+  notStop: "タイマーは一時停止していません"
+  restart: "タイマーを再開しました %0%"
+  alreadyStop: "タイマーは既に一時停止しています"
+  stop: "タイマーを一時停止しました"
+  finish: "タイマーが終了しました"
+  leftCheck: "タイマー終了まで: %0%"
+  remove: "タイマーを破棄しました"
+command:
+  test: ""
