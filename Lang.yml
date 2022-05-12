@@ -1,5 +1,5 @@
 timer:
-  minutes: "%0%分"
+  minutes: "%%%0%%%分"
   seconds: "%0%秒"
   start: "タイマーを開始しました %0%"
   minutesLeftNotice: "残り%0%です"
