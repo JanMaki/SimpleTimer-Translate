@@ -28,8 +28,8 @@ command:
     play: "再生しました"
     audioList: "Audio List"
     audioListDescription: |
-      使用できるオーディオの一覧です
-      コマンド使用時、1行目の太字の文字が名前になります
+      Usable audio list
+      The name field for the audio commands is first line bold text
 component:
   button:
     addTimer: "Extend"
