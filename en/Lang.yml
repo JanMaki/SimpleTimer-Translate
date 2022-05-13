@@ -15,15 +15,15 @@ timer:
   remove: "Destroyed timer."
 command:
   audio:
-    settingAudio: '“設定されているオーディオは%0です”'
-    name: '“名前”'
-    link: '“リンク”'
-    copyright: '“権利表示”'
-    other: '“その他”'
+    settingAudio: "設定されているオーディオは%0です"
+    name: "名前"
+    link: "リンク"
+    copyright: "権利表示"
+    other: "その他"
     pleaseConnectVoiceChannel: "*ボイスチャンネルに接続してください"
-    joinVoiceChannel: '“チャンネルに参加しました”'
-    leaveVoiceChannel: '“チャンネルから退出しました”'
-    play: '“再生しました”'
+    joinVoiceChannel: "チャンネルに参加しました"
+    leaveVoiceChannel: "チャンネルから退出しました"
+    play: "再生しました"
     audioList: "オーディオ一覧"
     audioListDescription: |
       "使用できるオーディオの一覧です"
