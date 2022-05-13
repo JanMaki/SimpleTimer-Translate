@@ -13,6 +13,7 @@ timer:
   leftCheck: "タイマー終了まで: %0"
   remove: "タイマーを破棄しました"
   timerMaxWarning: ":x: これ以上タイマーを動かすことはできません（最大: 4）"
+  queueNumber: "%0番目のキュー"
 command:
   audio: 
     settingAudio: "設定されているオーディオは%0です"
