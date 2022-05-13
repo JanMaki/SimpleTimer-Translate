@@ -27,8 +27,8 @@ command:
     play: "再生しました"
     audioList: "オーディオ一覧"
     audioListDescription: |
-      "使用できるオーディオの一覧です"
-      "コマンド使用時、1行目の太字の文字が名前になります"
+      使用できるオーディオの一覧です
+      コマンド使用時、1行目の太字の文字が名前になります
 component:
   button:
     addTimer: "延長"
