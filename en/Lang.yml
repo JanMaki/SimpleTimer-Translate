@@ -28,4 +28,13 @@ command:
     audioListDescription: |
       "使用できるオーディオの一覧です"
       "コマンド使用時、1行目の太字の文字が名前になります"
-
+component:
+  button:
+    addTimer: "延長"
+    finishTimer: "終了"
+    restartTimer: "再開"
+    stopTimer: "一時停止"
+    startTime: "開始"
+    timerMaxWarning: ":x: これ以上タイマーを動かすことはできません（最大: 4）"
+    joinCommunity: "コミュニティサーバーに参加"
+    roll: "振る"
