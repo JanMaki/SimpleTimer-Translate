@@ -15,6 +15,39 @@ timer:
   remove: "Destroyed timer."
   timerMaxWarning: ":x: これ以上タイマーを動かすことはできません（最大: 4）"
   queueNumber: "%0th queue"
+dice:
+  secret: "(シークレットダイス)"
+  longRangeWaring: |
+    %0出力結果の文字数が多すぎます。
+    ダイスの内容を変更して再度実行してください。
+  wrongFormat: "%0*ダイスの構文が間違っています"
+  changeDiceMode: "ダイスモードをを%0に変更しました"
+  defaultDice:
+    title: "SimpleTimer標準ダイス"
+    dDescription: |
+      〇個の●面ダイスを振ります
+      例： /roll 1d100　1個100面ダイスを振ります
+    plusDescription: |
+      □と■を足します
+      例１： /roll 2+5　2+7を行います
+      例２： /roll 1D6+1 1個6面ダイスを振った結果に+1を行います
+    lessThanDescription: |
+      ◇が◆より下かどうかを成功・失敗で、判定します
+      例１： /roll 10<5　10が5より下かどうかを判定します 結果は失敗です
+    lessDescription: |
+      ◇が◆以下かどうかを成功・失敗で、判定します
+      例１： /roll 1d10<=2 1個10面ダイスを振った結果が2以下かどうかを判定します 20%の確率で成功します
+    omission: "＜省略＞"
+    success: "成功"
+    failure: "失敗"
+  bcDice:
+    botSelect: "ダイスBot選択"
+    botSelectDescription: "使用するダイスボットを選択してください"
+    page: "ページ %0/%1"
+    changeDiceBot: "ダイスBotを%0に変更しました  id:%1"
+    diceDescription: "ダイスは**/roll ダイス: コマンド**で実行できます 例: /roll ダイス: 1d100"
+    gameCommand: "ゲーム固有コマンド"
+    commonCommand: "システム共通コマンド"
 command:
   audio:
     settingAudio: "設定されているオーディオは%0です"
