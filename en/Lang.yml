@@ -152,3 +152,6 @@ component:
     check: "本当にいいですか？"
     yesNo: "Please enter either yes or no."
     confirmation: "check"
+  select:
+    placeholder: "選択"
+    runListEntry: "%0を実行しました"
