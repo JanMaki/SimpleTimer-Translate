@@ -45,13 +45,13 @@ dice:
   bcDice:
     botSelect: "ダイスBot選択"
     botSelectDescription: "使用するダイスボットを選択してください"
-    page: "ページ %0/%1"
-    changeDiceBot: "ダイスBotを%0に変更しました  id:%1"
+    page: "Page %0/%1"
+    changeDiceBot: "Change dice bot to %0 id:%1"
     diceDescription: "ダイスは**/roll ダイス: コマンド**で実行できます 例: /roll ダイス: 1d100"
-    gameCommand: "ゲーム固有コマンド"
-    commonCommand: "システム共通コマンド"
+    gameCommand: "Game original command"
+    commonCommand: "Common command"
 command:
-  error: "*コマンドエラー"
+  error: "*Command Error"
   audio:
     settingAudio: "設定されているオーディオは%0です"
     name: "Title"
@@ -61,30 +61,30 @@ command:
     pleaseConnectVoiceChannel: "*Please connect to the voice channel."
     joinVoiceChannel: "Joined to the channel."
     leaveVoiceChannel: "Left from the channel."
-    play: "再生しました"
+    play: "Played"
     audioList: "Audio List"
     audioListDescription: |
       Usable audio list
       The name field for the audio commands is first line bold text
   button:
-    roll: "%0を振る"
+    roll: "Roll %0"
   chrome:
-    output: "このチャンネルのIDは`%0`です。"
+    output: "This channel's ID is `%0`"
   dice:
-    selectInMenu: "メニューよりボットを選択してください"
+    selectInMenu: "Select bot from menu."
   help:
     explanation: "解説"
     whatIsSimpleTimer: "SimpleTimerとは"
     timerCommandsList: "タイマーコマンド一覧"
     listExplanation: "一覧機能解説"
     developInfo: "開発情報"
-    sourceCode: "ソースコード"
+    sourceCode: "Souce code"
     supportForDeveloper: "開発者へ支援"
     show: "表示"
     termsOfUse: "権利表示"
     policy: "プライバシーポリシー"
   lang:
-    change: "言語を%0に変更しました"
+    change: "Change language to %0."
   list:
     synced: "*このサーバーでは一覧を同期しています。"
     longLengthWarning: "*名前の文字数は10文字以下にしてください"
@@ -109,7 +109,7 @@ command:
     remove: "%0番目のタイマーのキューを削除しました"
     clear: "%0番目のタイマーのキューをすべて削除しました"
   reset:
-    reset: "SimpleTimerの設定をリセットしました"
+    reset: "Reset SimpleTimer settings."
   timer:
     ttsTiming: "チャットの読み上げを%0にしました"
     maxMessageLengthWarning: "*20文字以下にしてください"
