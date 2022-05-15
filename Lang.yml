@@ -50,6 +50,7 @@ dice:
     gameCommand: "ゲーム固有コマンド"
     commonCommand: "システム共通コマンド"
 command:
+  error: "*コマンドエラー"
   audio:
     settingAudio: "設定されているオーディオは%0です"
     name: "名前"
