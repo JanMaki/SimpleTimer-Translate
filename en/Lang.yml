@@ -51,6 +51,7 @@ dice:
     gameCommand: "ゲーム固有コマンド"
     commonCommand: "システム共通コマンド"
 command:
+  error: "*コマンドエラー"
   audio:
     settingAudio: "設定されているオーディオは%0です"
     name: "Title"
@@ -150,7 +151,7 @@ component:
     missingValue: "*内容の確認に失敗しました"
     yesNoWarning: "*Please enter either yes or no"
     check: "本当にいいですか？"
-    yesNo: "Please enter either yes or no."
+    yesNo: "Please enter either yes or No."
     confirmation: "check"
   select:
     placeholder: "選択"
