@@ -14,6 +14,7 @@ timer:
   remove: "タイマーを破棄しました"
   timerMaxWarning: ":x: これ以上タイマーを動かすことはできません（最大: 4）"
   queueNumber: "%0番目のキュー"
+  timerNotMoveWarning: "*タイマーは動いていません"
 dice:
   secret: "(シークレットダイス)"
   longRangeWaring: |
@@ -21,6 +22,7 @@ dice:
     ダイスの内容を変更して再度実行してください。
   wrongFormat: "%0*ダイスの構文が間違っています"
   changeDiceMode: "ダイスモードをを%0に変更しました"
+  longLengthWarning: "*ダイスの内容は30文字以下にしてください"
   defaultDice:
     title: "SimpleTimer標準ダイス"
     dDescription: |
@@ -48,7 +50,7 @@ dice:
     gameCommand: "ゲーム固有コマンド"
     commonCommand: "システム共通コマンド"
 command:
-  audio: 
+  audio:
     settingAudio: "設定されているオーディオは%0です"
     name: "名前"
     link: "リンク"
@@ -62,6 +64,67 @@ command:
     audioListDescription: |
       使用できるオーディオの一覧です
       コマンド使用時、1行目の太字の文字が名前になります
+  button:
+    roll: "%0を振る"
+  chrome:
+    output: "このチャンネルのIDは`%0`です。"
+  dice:
+    selectInMenu: "メニューよりボットを選択してください"
+  help:
+    explanation: "解説"
+    whatIsSimpleTimer: "SimpleTimerとは"
+    timerCommandsList: "タイマーコマンド一覧"
+    listExplanation: "一覧機能解説"
+    developInfo: "開発情報"
+    sourceCode: "ソースコード"
+    supportForDeveloper: "開発者へ支援"
+    show: "表示"
+    termsOfUse: "権利表示"
+    policy: "プライバシーポリシー"
+  lang:
+    change: "言語を%0に変更しました"
+  list:
+    synced: "*このサーバーでは一覧を同期しています。"
+    longLengthWarning: "*名前の文字数は10文字以下にしてください"
+    unusableCharacter: "*名前に使用できない文字が含まれています"
+    maxEntry: "*10個以上登録できません"
+    add: "一覧に追加しました"
+    missingEntryWarning: "*無効な要素です"
+    remove: "要素を削除しました"
+    clear: "すべての要素を削除しました"
+    changeChannel: "一覧からタイマーやダイスを実行するチャンネルを%0に変更しました"
+    invalidID: "*無効なIDです"
+    startSync: "同期を開始しました"
+    targetSame: "*対象のサーバーが同じサーバーです"
+    finishSync: "同期を終了しました"
+    copy: "コピーを行いました"
+    id: |
+      IDは%0です。
+      他のサーバーで`/list_sync enable id: %0`を行うことで、このサーバーの一覧を同期でき、
+      `/list_copy id: %0`を行うことで、このサーバーの一覧をコピーできます
+  queue:
+    queueNotFount: "該当のキューが見つかりません"
+    remove: "%0番目のタイマーのキューを削除しました"
+    clear: "%0番目のタイマーのキューをすべて削除しました"
+  reset:
+    reset: "SimpleTimerの設定をリセットしました"
+  timer:
+    ttsTiming: "チャットの読み上げを%0にしました"
+    maxMessageLengthWarning: "*20文字以下にしてください"
+    finishTTS: "終了時のTTSメッセージを変更しました"
+    mentionTiming: "メンションを行うタイミングを%0にしました"
+    mentionSetting: "メンションの設定を%0にしました"
+    targetRole: "メンションを行う対象のロールは%0です。"
+    targetRoleEmpty: "メンションを行う対象のロールが設定されていません。"
+    targetRolePrompt: "対象のロールは、`/mention_addrole`で追加できます。"
+    targetVC: "メンションを行う対象のボイスチャンネルは%0です。"
+    targetVCEmpty: "メンションを行う対象のボイスチャンネルが設定されていません。"
+    targetVCPrompt: "対象のボイスチャンネルは、`/mention_addvc`で追加できます。"
+    addRole: "`%0`をメンション対象に追加しました"
+    removeRole: "`%0`をメンション対象から削除しました"
+    notVCWaring: "*ボイスチャットではないチャンネルです"
+    addVC: "`%0`をメンション対象に追加しました"
+    removeVC: "`%0`をメンション対象から削除しました"
 component:
   button:
     addTimer: "延長"
@@ -75,7 +138,6 @@ component:
     minutes: "分数"
     seconds: "秒数"
     missingTimeWarning: "*正しい時間を設定してください"
-    timerNotMoveWarning: "*タイマーは動いていません"
     addTimeMinutes: "延長する分数"
     addTimeSeconds: "延長する秒数"
     addTime: "%0番目のタイマーを延長する"
