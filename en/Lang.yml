@@ -17,15 +17,15 @@ timer:
   queueNumber: "%0th queue"
   timerNotMoveWarning: "*タイマーは動いていません"
 dice:
-  secret: "(シークレットダイス)"
+  secret: "(Secret Dice)"
   longRangeWaring: |
     %0出力結果の文字数が多すぎます。
     ダイスの内容を変更して再度実行してください。
   wrongFormat: "%0*ダイスの構文が間違っています"
-  changeDiceMode: "ダイスモードをを%0に変更しました"
+  changeDiceMode: "Change dice mode to %0."
   longLengthWarning: "*ダイスの内容は30文字以下にしてください"
   defaultDice:
-    title: "SimpleTimer標準ダイス"
+    title: "SimpleTimer basic dice"
     dDescription: |
       〇個の●面ダイスを振ります
       例： /roll 1d100　1個100面ダイスを振ります
@@ -43,7 +43,7 @@ dice:
     success: "成功"
     failure: "失敗"
   bcDice:
-    botSelect: "ダイスBot選択"
+    botSelect: "Select dice bot."
     botSelectDescription: "使用するダイスボットを選択してください"
     page: "Page %0/%1"
     changeDiceBot: "Change dice bot to %0 id:%1"
@@ -77,7 +77,7 @@ command:
     whatIsSimpleTimer: "SimpleTimerとは"
     timerCommandsList: "タイマーコマンド一覧"
     listExplanation: "一覧機能解説"
-    developInfo: "開発情報"
+    developInfo: "Development Information"
     sourceCode: "Souce code"
     supportForDeveloper: "開発者へ支援"
     show: "表示"
@@ -154,5 +154,5 @@ component:
     yesNo: "Please enter either yes or No."
     confirmation: "check"
   select:
-    placeholder: "選択"
+    placeholder: "Select"
     runListEntry: "%0を実行しました"
