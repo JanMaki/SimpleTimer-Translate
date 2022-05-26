@@ -48,8 +48,9 @@ dice:
     page: "Page %0/%1"
     changeDiceBot: "Change dice bot to %0 id:%1"
     diceDescription: "ダイスは**/roll ダイス: コマンド**で実行できます 例: /roll ダイス: 1d100"
-    gameCommand: "Game original command"
-    commonCommand: "Common command"
+    gameCommand: "Game original commands"
+    commonCommand: "Common commands"
+    unknownBot: "*不明なBotです"
 command:
   error: "*Command Error"
   audio:
