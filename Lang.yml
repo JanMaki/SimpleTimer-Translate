@@ -49,6 +49,7 @@ dice:
     diceDescription: "ダイスは**/roll ダイス: コマンド**で実行できます 例: /roll ダイス: 1d100"
     gameCommand: "ゲーム固有コマンド"
     commonCommand: "システム共通コマンド"
+    unknownBot: "*不明なBotです"
 command:
   error: "*コマンドエラー"
   audio:
