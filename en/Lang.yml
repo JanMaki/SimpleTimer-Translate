@@ -87,7 +87,7 @@ command:
   lang:
     change: "Change language to %0."
   list:
-    synced: "*このサーバーでは一覧を同期しています。"
+    synced: "*This server's list was synced."
     longLengthWarning: "*名前の文字数は10文字以下にしてください"
     unusableCharacter: "*名前に使用できない文字が含まれています"
     maxEntry: "*10個以上登録できません"
