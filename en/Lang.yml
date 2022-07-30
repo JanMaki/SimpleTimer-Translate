@@ -51,6 +51,115 @@ dice:
     gameCommand: "Game original commands"
     commonCommand: "Common commands"
     unknownBot: "*不明なBotです"
+commandInfo:
+  audioConnect:
+    name: "audio_connect"
+    description: "ボイスチャンネルに接続する"
+  audioDisconnect:
+    name: "audio_disconnect"
+    description: "ボイスチャンネルから抜ける"
+  audioListen:
+    name: "audio_listen"
+    description: "設定されているオーディオを試聴する"
+  audioChange:
+    name: "audio_change"
+    description: "オーディオを変更する"
+  audioList:
+    name: "audio_list"
+    description: "オーディオの一覧を表示します"
+  audioOPTName:
+    name: "名前"
+    description: "オーディオの名前"
+  button:
+    name: "button"
+    description: "タイマーやボタンを開始するボタンを送信します"
+  buttonSCTimer:
+    name: "timer"
+    description: "タイマー"
+  buttonSCDice:
+    name: "dice"
+    description: "ダイスロール"
+  buttonOPTDice:
+    name: "ダイス"
+    description: "ダイスの内容"
+  extension:
+    name: "extension"
+    description: "ブラウザ拡張機能に必要なIDを取得する"
+  debug:
+    name: "debug"
+    description: "開発用機能"
+  roll:
+    name: "roll"
+    description: "ダイスを振ります"
+  diceMode:
+    name: "dice_mode"
+    description: "使うダイスをDefaultかBCDiceかを切り替える"
+  diceInfo:
+    name: "dice_info"
+    description: "ダイスの使い方を表示する"
+  diceBot:
+    name: "dice_bot"
+    description: "BCDiceで使用するボットを変更します"
+  diceBasic:
+    name: "1d100"
+    description: "100面ダイスを振ります。その他の個数・面数のダイスは'/roll xDy'で使用できます"
+  diceSecret:
+    name: "s1d100"
+    description: "結果が隠された100面ダイスを振ります。その他の個数・面数のダイスは'/roll xDy'で使用できます"
+  diceOPTDice:
+    name: "ダイス"
+    description: "ダイスの内容 例:1d100"
+  diceOPTBot:
+    name: "bot"
+    description: "ボット"
+  help:
+    name: "help"
+    description: "Botの概要などを表示"
+  lang:
+    name: "lang"
+    description: "言語を変更する"
+  list:
+    name: "list"
+    description: "一覧を表示します"
+  listAdd:
+    name: "list_add"
+    description: "一覧に要素を追加・上書きをします"
+  listRemove:
+    name: "list_remove"
+    description: "一覧から要素を削除をします"
+  listClear:
+    name: "list_clear"
+    description: "一覧の要素をすべて削除します"
+  listTargetChannel:
+    name: "list_target"
+    description: "タイマーやダイスを送信するチャンネルを設定する"
+  listSync:
+    name: "list_sync"
+    description: "一覧を他のサーバーと同期します"
+  listCopy:
+    name: "list_copy"
+    description: "他のサーバーの一覧をコピーします"
+  listID:
+    name: "list_id"
+    description: "同期に必要なIDを取得します"
+  listOPTTimerName:
+    name: "名前"
+    description: "タイマーの名前"
+  listOPTMinutes:
+    name: "分"
+    description: "時間を分単位で"
+  listOPTDiceName:
+    name: "名前"
+    description: "ダイスの名前"
+  listOPTDice:
+    name: "ダイス"
+    description: "ダイスの内容"
+  listOPTElementName:
+    name: "名前"
+    description: "要素の名前"
+  listSBTimer:
+    name: "timer"
+    description: "タイマーを一覧に追加・上書きをする"
 command:
   error: "*Command Error"
   audio:
