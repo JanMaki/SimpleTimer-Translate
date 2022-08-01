@@ -171,6 +171,9 @@ commandInfo:
   listOPTID:
     name: "id"
     description: "同期する対象のサーバーで出力されたIDを入れてください"
+  listOPTChannel:
+    name: "テキストチャンネル"
+    description: "対象のチャンネル"
   listSBTimer:
     name: "timer"
     description: "タイマーを一覧に追加・上書きをする"
