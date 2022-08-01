@@ -51,6 +51,277 @@ dice:
     gameCommand: "Game original commands"
     commonCommand: "Common commands"
     unknownBot: "*不明なBotです"
+commandInfo:
+  minutes:
+    name: "分"
+    description: "時間を分単位で"
+  one:
+    name: "1番目のタイマー"
+    description: ""
+  two:
+    name: "2番目のタイマー"
+    description: ""
+  three:
+    name: "3番目のタイマー"
+    description: ""
+  four:
+    name: "4番目のタイマー"
+    description: ""
+  audioConnect:
+    name: "audio_connect"
+    description: "ボイスチャンネルに接続する"
+  audioDisconnect:
+    name: "audio_disconnect"
+    description: "ボイスチャンネルから抜ける"
+  audioListen:
+    name: "audio_listen"
+    description: "設定されているオーディオを試聴する"
+  audioChange:
+    name: "audio_change"
+    description: "オーディオを変更する"
+  audioList:
+    name: "audio_list"
+    description: "オーディオの一覧を表示します"
+  audioOPTName:
+    name: "名前"
+    description: "オーディオの名前"
+  button:
+    name: "button"
+    description: "タイマーやボタンを開始するボタンを送信します"
+  buttonSCTimer:
+    name: "timer"
+    description: "タイマー"
+  buttonSCDice:
+    name: "dice"
+    description: "ダイスロール"
+  buttonOPTDice:
+    name: "ダイス"
+    description: "ダイスの内容"
+  extension:
+    name: "extension"
+    description: "ブラウザ拡張機能に必要なIDを取得する"
+  debug:
+    name: "debug"
+    description: "開発用機能"
+  roll:
+    name: "roll"
+    description: "ダイスを振ります"
+  diceMode:
+    name: "dice_mode"
+    description: "使うダイスをDefaultかBCDiceかを切り替える"
+  diceInfo:
+    name: "dice_info"
+    description: "ダイスの使い方を表示する"
+  diceBot:
+    name: "dice_bot"
+    description: "BCDiceで使用するボットを変更します"
+  diceBasic:
+    name: "1d100"
+    description: "100面ダイスを振ります。その他の個数・面数のダイスは'/roll xDy'で使用できます"
+  diceSecret:
+    name: "s1d100"
+    description: "結果が隠された100面ダイスを振ります。その他の個数・面数のダイスは'/roll xDy'で使用できます"
+  diceOPTDice:
+    name: "ダイス"
+    description: "ダイスの内容 例:1d100"
+  diceOPTBot:
+    name: "bot"
+    description: "ボット"
+  help:
+    name: "help"
+    description: "Botの概要などを表示"
+  lang:
+    name: "lang"
+    description: "言語を変更する"
+  list:
+    name: "list"
+    description: "一覧を表示します"
+  listAdd:
+    name: "list_add"
+    description: "一覧に要素を追加・上書きをします"
+  listRemove:
+    name: "list_remove"
+    description: "一覧から要素を削除をします"
+  listClear:
+    name: "list_clear"
+    description: "一覧の要素をすべて削除します"
+  listTargetChannel:
+    name: "list_target"
+    description: "タイマーやダイスを送信するチャンネルを設定する"
+  listSync:
+    name: "list_sync"
+    description: "一覧を他のサーバーと同期します"
+  listCopy:
+    name: "list_copy"
+    description: "他のサーバーの一覧をコピーします"
+  listID:
+    name: "list_id"
+    description: "同期に必要なIDを取得します"
+  listOPTTimerName:
+    name: "名前"
+    description: "タイマーの名前"
+  listOPTDiceName:
+    name: "名前"
+    description: "ダイスの名前"
+  listOPTDice:
+    name: "ダイス"
+    description: "ダイスの内容"
+  listOPTElementName:
+    name: "名前"
+    description: "要素の名前"
+  listOPTID:
+    name: "id"
+    description: "同期する対象のサーバーで出力されたIDを入れてください"
+  listSBTimer:
+    name: "timer"
+    description: "タイマーを一覧に追加・上書きをする"
+  listSBDice:
+    name: "dice"
+    description: "ダイスを一覧に追加・上書きをする"
+  listSBSyncEnable:
+    name: "enable"
+    description: "同期を行うようにする"
+  listSBSyncDisable:
+    name: "disable"
+    description: "同期を行わないようにする"
+  queue:
+    name: "queue"
+    description: "タイマーをキューに追加をする"
+  queueShow:
+    name: "queue_show"
+    description: "キューを確認する"
+  queueRemove:
+    name: "queue_remove"
+    description: "キューからタイマーを削除する"
+  queueClear:
+    name: "queue_clear"
+    description: "キュー全て削除する"
+  queueOPTAddTimer:
+    name: "タイマー"
+    description: "キューを追加するタイマー"
+  queueOPTCheckTimer:
+    name: "タイマー"
+    description: "確認をするタイマー"
+  queueOPTRemoveTimer:
+    name: "タイマー"
+    description: "キューを削除するタイマー"
+  queueOPTNumber:
+    name: "番号"
+    description: "削除するタイマーのキュー番号"
+  queueOPTClearTimer:
+    name: "タイマー"
+    description: "キューを削除するタイマー"
+  reset:
+    name: "reset"
+    description: "サーバーで設定されているSimpleTimerの設定をリセットします"
+  timer:
+    name: "timer"
+    description: "タイマーを開始する"
+  finish:
+    name: "finish"
+    description: "タイマーを終了する"
+  finishAll:
+    name: "finish_all"
+    description: "すべてのタイマーを終了する"
+  add:
+    name: "add"
+    description: "タイマーを延長する"
+  stop:
+    name: "stop"
+    description: "タイマーを一時停止する"
+  restart:
+    name: "restart"
+    description: "タイマーの一時停止を再開する"
+  check:
+    name: "check"
+    description: "タイマーを確認する"
+  ttsTiming:
+    name: "tts_timing"
+    description: "ttsによるメッセージの読み上げを設定する 初期状態ではLV0"
+  ttsFinishMessage:
+    name: "tts_finishmessage"
+    description: "終了時のメッセージ読み上げの内容を変更する"
+  mentionTiming:
+    name: "mention_timing"
+    description: "メンションを行うタイミングの設定をする 初期状態ではLV2"
+  mention:
+    name: "mention"
+    description: "メンションの方式を変更する"
+  mentionRole:
+    name: "mention_role"
+    description: "メンションを行う対象のロールを確認する"
+  mentionAddRole:
+    name: "mention_addrole"
+    description: "メンションを行う対象のロールを追加する"
+  mentionRemoveRole:
+    name: "mention_removerole"
+    description: "メンションを行う対象のロールを削除する"
+  mentionVC:
+    name: "mention_vc"
+    description: "メンションを行う対象のボイスチャットを確認する"
+  mentionAddVC:
+    name: "mention_addvc"
+    description: "メンションを行う対象のボイスチャットを追加する"
+  mentionRemoveVC:
+    name: "mention_removevc"
+    description: "メンションを行う対象のボイスチャットを削除する"
+  timerOPTFinishTimer:
+    name: "タイマー"
+    description: "終了するタイマー"
+  timerOPTAddTimer:
+    name: "タイマー"
+    description: "延長するタイマー"
+  timerOPTStopTimer:
+    name: "タイマー"
+    description: "一時停止するタイマー"
+  timerOPTRestartTimer:
+    name: "タイマー"
+    description: "再開するタイマー"
+  timerOPTCheckTimer:
+    name: "タイマー"
+    description: "確認するタイマー"
+  timerOPTMessage:
+    name: "メッセージ"
+    description: "メッセージの内容 タイマーの番号が'x'に代入されます 何も入力しないと、終了時にTTSの読み上げを行いません"
+  timerOPTAddRole:
+    name: "role"
+    description: "追加するロール"
+  timerOPTRemoveRole:
+    name: "role"
+    description: "削除するロール"
+  timerOPTAddVC:
+    name: "channel"
+    description: "追加するボイスチャット"
+  timerOPTRemoveVC:
+    name: "channel"
+    description: "削除するボイスチャット"
+  timerSBZero:
+    name: "lv0"
+    description: "通知を行わない"
+  timerSBOne:
+    name: "lv1"
+    description: "タイマー終了時のみ通知"
+  timerSBTwo:
+    name: "lv2"
+    description: "タイマー終了時と、定期的な時間通知の時に通知"
+  timerSBThree:
+    name: "lv3"
+    description: "タイマーのすべての通知（LV2に加えて、延長など）で通知"
+  timerMentionHere:
+    name: "here"
+    description: "@hereを用いたメンション"
+  timerMentionVC:
+    name: "vc"
+    description: "ボイスチャットに接続されているメンバー"
+  timerMentionRole:
+    name: "role"
+    description: "特定のロールにメンション"
+  timerMentionTargetVC:
+    name: "target_vc"
+    description: "特定のボイスチャットに接続されているメンバー"
+  timerMentionOff:
+    name: "off"
+    description: "メンションを行わない"
 command:
   error: "*Command Error"
   audio:
