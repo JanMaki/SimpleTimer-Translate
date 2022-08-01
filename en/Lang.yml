@@ -77,7 +77,7 @@ commandInfo:
     name: "audio_listen"
     description: "設定されているオーディオを試聴する"
   audioChange:
-    name: "audio_change"
+    name: "audio_listen"
     description: "オーディオを変更する"
   audioList:
     name: "audio_list"
@@ -172,6 +172,9 @@ commandInfo:
   listOPTID:
     name: "id"
     description: "同期する対象のサーバーで出力されたIDを入れてください"
+  listOPTChannel:
+    name: "テキストチャンネル"
+    description: "対象のチャンネル"
   listSBTimer:
     name: "timer"
     description: "タイマーを一覧に追加・上書きをする"
