@@ -236,7 +236,7 @@ commandInfo:
     name: "restart"
     description: "タイマーの一時停止を再開する"
   check:
-    name: "check"
+    name: "finish_all"
     description: "タイマーを確認する"
   ttsTiming:
     name: "tts_timing"
