@@ -27,8 +27,8 @@ dice:
   defaultDice:
     title: "SimpleTimer basic dice"
     dDescription: |
-      〇個の●面ダイスを振ります
-      例： /roll 1d100　1個100面ダイスを振ります
+      Rolls X amount of X sided dice
+      Ex: /roll 1d100　Rolls one 100-sided dice
     plusDescription: |
       □と■を足します
       例１： /roll 2+5　2+7を行います
@@ -40,8 +40,8 @@ dice:
       ◇が◆以下かどうかを成功・失敗で、判定します
       例１： /roll 1d10<=2 1個10面ダイスを振った結果が2以下かどうかを判定します 20%の確率で成功します
     omission: "＜省略＞"
-    success: "成功"
-    failure: "失敗"
+    success: "Success"
+    failure: "Failure"
   bcDice:
     botSelect: "Select dice bot."
     botSelectDescription: "使用するダイスボットを選択してください"
@@ -56,35 +56,35 @@ commandInfo:
     name: "分"
     description: "時間を分単位で"
   one:
-    name: "1番目のタイマー"
+    name: "First timer"
     description: ""
   two:
-    name: "2番目のタイマー"
+    name: "Second timer"
     description: ""
   three:
-    name: "3番目のタイマー"
+    name: "Third timer"
     description: ""
   four:
-    name: "4番目のタイマー"
+    name: "Fourth timer"
     description: ""
   audioConnect:
     name: "audio_connect"
-    description: "ボイスチャンネルに接続する"
+    description: "Joins a voice channel"
   audioDisconnect:
     name: "audio_disconnect"
-    description: "ボイスチャンネルから抜ける"
+    description: "Leaves a voice channel"
   audioListen:
     name: "audio_listen"
     description: "設定されているオーディオを試聴する"
   audioChange:
     name: "audio_listen"
-    description: "オーディオを変更する"
+    description: "Changes the audio"
   audioList:
     name: "audio_list"
-    description: "オーディオの一覧を表示します"
+    description: "Shows a summary of the audio"
   audioOPTName:
-    name: "名前"
-    description: "オーディオの名前"
+    name: "Name"
+    description: "Audio Name"
   button:
     name: "button"
     description: "タイマーやボタンを開始するボタンを送信します"
@@ -105,34 +105,34 @@ commandInfo:
     description: "Debug Function"
   roll:
     name: "roll"
-    description: "ダイスを振ります"
+    description: "Rolls dice"
   diceMode:
     name: "dice_mode"
     description: "使うダイスをDefaultかBCDiceかを切り替える"
   diceInfo:
     name: "dice_info"
-    description: "ダイスの使い方を表示する"
+    description: "Shows how to use the dice"
   diceBot:
     name: "dice_bot"
     description: "BCDiceで使用するボットを変更します"
   diceBasic:
     name: "1d100"
-    description: "100面ダイスを振ります。その他の個数・面数のダイスは'/roll xDy'で使用できます"
+    description: "Rolls a 100-sided die. For other amounts of dice and sides, you can use \"/roll xDy\""
   diceSecret:
     name: "s1d100"
-    description: "結果が隠された100面ダイスを振ります。その他の個数・面数のダイスは'/roll xDy'で使用できます"
+    description: "Rolls a 100-sided die and hides the result. For other amounts of dice and sides, you can use \"/roll xDy\""
   diceOPTDice:
-    name: "ダイス"
-    description: "ダイスの内容 例:1d100"
+    name: "Dice"
+    description: "Dice properties, for example: 1d100"
   diceOPTBot:
-    name: "bot"
-    description: "ボット"
+    name: "Bot"
+    description: "Bot"
   help:
     name: "help"
-    description: "Botの概要などを表示"
+    description: "Shows an overview of the bot"
   lang:
     name: "lang"
-    description: "言語を変更する"
+    description: "Changes the language"
   list:
     name: "list"
     description: "一覧を表示します"
@@ -158,17 +158,17 @@ commandInfo:
     name: "list_id"
     description: "同期に必要なIDを取得します"
   listOPTTimerName:
-    name: "名前"
-    description: "タイマーの名前"
+    name: "Name"
+    description: "Timer name"
   listOPTDiceName:
-    name: "名前"
-    description: "ダイスの名前"
+    name: "Name"
+    description: "Dice Name"
   listOPTDice:
-    name: "ダイス"
-    description: "ダイスの内容"
+    name: "Dice"
+    description: "Dice Properties"
   listOPTElementName:
-    name: "名前"
-    description: "要素の名前"
+    name: "Name"
+    description: "Element Name"
   listOPTID:
     name: "id"
     description: "同期する対象のサーバーで出力されたIDを入れてください"
@@ -212,7 +212,7 @@ commandInfo:
     name: "番号"
     description: "削除するタイマーのキュー番号"
   queueOPTClearTimer:
-    name: "タイマー"
+    name: "Timer"
     description: "キューを削除するタイマー"
   reset:
     name: "reset"
@@ -227,23 +227,23 @@ commandInfo:
     name: "finish_all"
     description: "すべてのタイマーを終了する"
   add:
-    name: "add"
+    name: "Add"
     description: "タイマーを延長する"
   stop:
-    name: "stop"
+    name: "Stop"
     description: "タイマーを一時停止する"
   restart:
-    name: "restart"
-    description: "タイマーの一時停止を再開する"
+    name: "Restart"
+    description: "Unpauses the timer"
   check:
     name: "finish_all"
-    description: "タイマーを確認する"
+    description: "Checks a timer"
   ttsTiming:
     name: "tts_timing"
     description: "ttsによるメッセージの読み上げを設定する 初期状態ではLV0"
   ttsFinishMessage:
     name: "tts_finishmessage"
-    description: "終了時のメッセージ読み上げの内容を変更する"
+    description: "Changes the finish message"
   mentionTiming:
     name: "mention_timing"
     description: "メンションを行うタイミングの設定をする 初期状態ではLV2"
