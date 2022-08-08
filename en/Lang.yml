@@ -89,20 +89,20 @@ commandInfo:
     name: "button"
     description: "タイマーやボタンを開始するボタンを送信します"
   buttonSCTimer:
-    name: "timer"
-    description: "タイマー"
+    name: "Timer"
+    description: "Timer"
   buttonSCDice:
-    name: "dice"
-    description: "ダイスロール"
+    name: "Dice"
+    description: "Dice Roll"
   buttonOPTDice:
-    name: "ダイス"
+    name: "Dice"
     description: "ダイスの内容"
   extension:
     name: "extension"
     description: "ブラウザ拡張機能に必要なIDを取得する"
   debug:
     name: "debug"
-    description: "開発用機能"
+    description: "Debug Function"
   roll:
     name: "roll"
     description: "ダイスを振ります"
