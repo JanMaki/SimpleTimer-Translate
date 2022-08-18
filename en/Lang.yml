@@ -74,7 +74,7 @@ commandInfo:
     description: "Leaves a voice channel"
   audioListen:
     name: "audio_listen"
-    description: "設定されているオーディオを試聴する"
+    description: "Listen to selected audio"
   audioChange:
     name: "audio_listen"
     description: "Changes the audio"
