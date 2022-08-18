@@ -19,41 +19,41 @@ timer:
 dice:
   secret: "(Secret Dice)"
   longRangeWaring: |
-    %0 Range is too long. Update the dice length and try again.
+    %0 Range is too long. Update the die length and try again.
   wrongFormat: "%0*Incorrect dice format"
   changeDiceMode: "Change dice mode to %0."
-  longLengthWarning: "*ダイスの内容は30文字以下にしてください"
+  longLengthWarning: "*The dice length cannot exceed 30 characters"
   defaultDice:
     title: "SimpleTimer basic dice"
     dDescription: |
       Rolls X amount of X sided dice
       Ex: /roll 1d100　Rolls one 100-sided dice
     plusDescription: |
-      □と■を足します
-      例１： /roll 2+5　2+7を行います
-      例２： /roll 1D6+1 1個6面ダイスを振った結果に+1を行います
+      Adds A and B
+      Ex. 1：/roll 2+5　Adds 2 and 5
+      Ex. 2：/roll 1D6+1　Rolls 1x D6 die and adds 1 to the result
     lessThanDescription: |
-      ◇が◆より下かどうかを成功・失敗で、判定します
-      例１： /roll 10<5　10が5より下かどうかを判定します 結果は失敗です
+      Checks if A is less than B and returns either "success" or "fail"
+      Ex. 1：/roll 10<5　Checks whether 10 is less than 5. Returns "fail"
     lessDescription: |
-      ◇が◆以下かどうかを成功・失敗で、判定します
-      例１： /roll 1d10<=2 1個10面ダイスを振った結果が2以下かどうかを判定します 20%の確率で成功します
-    omission: "＜省略＞"
+      Checks if A is less or equal to B and returns either "success" or "fail"
+      Ex. 1：/roll 1d10<=2　Rolls 1x D10 die and checks if the result is less than or equal to 2. Has a 20% chance of returning "success"
+    omission: "<omitted>"
     success: "Success"
     failure: "Failure"
   bcDice:
     botSelect: "Select dice bot."
-    botSelectDescription: "使用するダイスボットを選択してください"
+    botSelectDescription: "Choose the dice bot you'd like to use"
     page: "Page %0/%1"
     changeDiceBot: "Change dice bot to %0 id:%1"
-    diceDescription: "ダイスは**/roll ダイス: コマンド**で実行できます 例: /roll ダイス: 1d100"
+    diceDescription: "You can roll a die with the command \"/roll [die].\" Example: /roll 1d100"
     gameCommand: "Game original commands"
     commonCommand: "Common commands"
-    unknownBot: "*不明なBotです"
+    unknownBot: "*Unknown bot"
 commandInfo:
   minutes:
-    name: "分"
-    description: "時間を分単位で"
+    name: "min"
+    description: "Time in minutes"
   one:
     name: "First timer"
     description: ""
