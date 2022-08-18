@@ -13,15 +13,14 @@ timer:
   finish: "Timer has ended."
   leftCheck: "Until the timer ends: %0"
   remove: "Destroyed timer."
-  timerMaxWarning: ":x: これ以上タイマーを動かすことはできません（最大: 4）"
+  timerMaxWarning: ":x: Cannot start any more timers (max: 4)"
   queueNumber: "%0th queue"
-  timerNotMoveWarning: "*タイマーは動いていません"
+  timerNotMoveWarning: "*No timers are running"
 dice:
   secret: "(Secret Dice)"
   longRangeWaring: |
-    %0出力結果の文字数が多すぎます。
-    ダイスの内容を変更して再度実行してください。
-  wrongFormat: "%0*ダイスの構文が間違っています"
+    %0 Range is too long. Update the dice length and try again.
+  wrongFormat: "%0*Incorrect dice format"
   changeDiceMode: "Change dice mode to %0."
   longLengthWarning: "*ダイスの内容は30文字以下にしてください"
   defaultDice:
