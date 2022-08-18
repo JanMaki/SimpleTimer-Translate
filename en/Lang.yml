@@ -230,7 +230,7 @@ commandInfo:
     name: "Add"
     description: "タイマーを延長する"
   stop:
-    name: "Stop"
+    name: "stop"
     description: "タイマーを一時停止する"
   restart:
     name: "Restart"
