@@ -95,10 +95,10 @@ commandInfo:
     description: "Dice Roll"
   buttonOPTDice:
     name: "Dice"
-    description: "ダイスの内容"
+    description: "Dice options"
   extension:
     name: "extension"
-    description: "ブラウザ拡張機能に必要なIDを取得する"
+    description: "Obtain the ID needed for the browser extension"
   debug:
     name: "debug"
     description: "Debug Function"
