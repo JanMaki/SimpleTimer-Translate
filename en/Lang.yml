@@ -86,7 +86,7 @@ commandInfo:
     description: "Audio Name"
   button:
     name: "button"
-    description: "タイマーやボタンを開始するボタンを送信します"
+    description: "Select the button for starting timers and buttons"
   buttonSCTimer:
     name: "Timer"
     description: "Timer"
@@ -107,13 +107,13 @@ commandInfo:
     description: "Rolls dice"
   diceMode:
     name: "dice_mode"
-    description: "使うダイスをDefaultかBCDiceかを切り替える"
+    description: "Switch between using Default dice or BCDice"
   diceInfo:
     name: "dice_info"
     description: "Shows how to use the dice"
   diceBot:
     name: "dice_bot"
-    description: "BCDiceで使用するボットを変更します"
+    description: "Change the bot used with BCDice"
   diceBasic:
     name: "1d100"
     description: "Rolls a 100-sided die. For other amounts of dice and sides, you can use \"/roll xDy\""
@@ -134,28 +134,28 @@ commandInfo:
     description: "Changes the language"
   list:
     name: "list"
-    description: "一覧を表示します"
+    description: "Show list"
   listAdd:
     name: "list_add"
-    description: "一覧に要素を追加・上書きをします"
+    description: "Add or replace an item in the list"
   listRemove:
     name: "list_remove"
-    description: "一覧から要素を削除をします"
+    description: "Delete an item from the list"
   listClear:
     name: "list_clear"
-    description: "一覧の要素をすべて削除します"
+    description: "Delete all items from the list"
   listTargetChannel:
     name: "list_target"
-    description: "タイマーやダイスを送信するチャンネルを設定する"
+    description: "Set the target channel for timers and dice"
   listSync:
     name: "list_sync"
-    description: "一覧を他のサーバーと同期します"
+    description: "Sync the list with another server"
   listCopy:
     name: "list_copy"
-    description: "他のサーバーの一覧をコピーします"
+    description: "Copy a list from another server"
   listID:
     name: "list_id"
-    description: "同期に必要なIDを取得します"
+    description: "Get necessary IDs simultaneously"
   listOPTTimerName:
     name: "Name"
     description: "Timer name"
@@ -170,49 +170,49 @@ commandInfo:
     description: "Element Name"
   listOPTID:
     name: "id"
-    description: "同期する対象のサーバーで出力されたIDを入れてください"
+    description: "Enter the ID provided by the server you want to sync with"
   listOPTChannel:
-    name: "テキストチャンネル"
-    description: "対象のチャンネル"
+    name: "Text channel"
+    description: "Target channel"
   listSBTimer:
     name: "timer"
-    description: "タイマーを一覧に追加・上書きをする"
+    description: "Add or replace a timer in the list"
   listSBDice:
     name: "dice"
-    description: "ダイスを一覧に追加・上書きをする"
+    description: "Add or replace a die in the list"
   listSBSyncEnable:
     name: "enable"
-    description: "同期を行うようにする"
+    description: "Enable sync"
   listSBSyncDisable:
     name: "disable"
-    description: "同期を行わないようにする"
+    description: "Disable sync"
   queue:
     name: "queue"
-    description: "タイマーをキューに追加をする"
+    description: "Add a timer to the queue"
   queueShow:
     name: "queue_show"
-    description: "キューを確認する"
+    description: "View queue"
   queueRemove:
     name: "queue_remove"
-    description: "キューからタイマーを削除する"
+    description: "Delete a timer from the queue"
   queueClear:
     name: "queue_clear"
-    description: "キュー全て削除する"
+    description: "Delete all items in queue"
   queueOPTAddTimer:
-    name: "タイマー"
-    description: "キューを追加するタイマー"
+    name: "Timer"
+    description: "Timers to add to queue"
   queueOPTCheckTimer:
-    name: "タイマー"
-    description: "確認をするタイマー"
+    name: "Timer"
+    description: "Timer to check"
   queueOPTRemoveTimer:
-    name: "タイマー"
-    description: "キューを削除するタイマー"
+    name: "Timer"
+    description: "Timer to delete from queue"
   queueOPTNumber:
-    name: "番号"
-    description: "削除するタイマーのキュー番号"
+    name: "Number"
+    description: "The number of the queue of the timer to delete"
   queueOPTClearTimer:
     name: "Timer"
-    description: "キューを削除するタイマー"
+    description: "Timer to delete from queue"
   reset:
     name: "reset"
     description: "サーバーで設定されているSimpleTimerの設定をリセットします"
