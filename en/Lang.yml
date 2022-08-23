@@ -215,22 +215,22 @@ commandInfo:
     description: "Timer to delete from queue"
   reset:
     name: "reset"
-    description: "サーバーで設定されているSimpleTimerの設定をリセットします"
+    description: "Reset the settings for the SimpleTimer deployed to the server"
   timer:
     name: "timer"
-    description: "タイマーを開始する"
+    description: "Start timer"
   finish:
     name: "finish"
-    description: "タイマーを終了する"
+    description: "Stop timer"
   finishAll:
     name: "finish_all"
-    description: "すべてのタイマーを終了する"
+    description: "Stop all timers"
   add:
     name: "Add"
-    description: "タイマーを延長する"
+    description: "Extend timer"
   stop:
     name: "stop"
-    description: "タイマーを一時停止する"
+    description: "Pause timer"
   restart:
     name: "Restart"
     description: "Unpauses the timer"
