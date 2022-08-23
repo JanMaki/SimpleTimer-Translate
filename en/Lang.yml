@@ -239,95 +239,95 @@ commandInfo:
     description: "Checks a timer"
   ttsTiming:
     name: "tts_timing"
-    description: "ttsによるメッセージの読み上げを設定する 初期状態ではLV0"
+    description: "Adjust the TTS readings. Default value is lv0"
   ttsFinishMessage:
     name: "tts_finishmessage"
     description: "Changes the finish message"
   mentionTiming:
     name: "mention_timing"
-    description: "メンションを行うタイミングの設定をする 初期状態ではLV2"
+    description: "Set the timing for sending a mention. Default value is lv2"
   mention:
     name: "mention"
-    description: "メンションの方式を変更する"
+    description: "Change the way mentions are sent"
   mentionRole:
     name: "mention_role"
-    description: "メンションを行う対象のロールを確認する"
+    description: "Check the roles to be mentioned"
   mentionAddRole:
     name: "mention_addrole"
-    description: "メンションを行う対象のロールを追加する"
+    description: "Add a role to be mentioned"
   mentionRemoveRole:
     name: "mention_removerole"
-    description: "メンションを行う対象のロールを削除する"
+    description: "Delete a role from the mention list"
   mentionVC:
     name: "mention_vc"
-    description: "メンションを行う対象のボイスチャットを確認する"
+    description: "Check the voice channels to be mentioned"
   mentionAddVC:
     name: "mention_addvc"
-    description: "メンションを行う対象のボイスチャットを追加する"
+    description: "Add a voice channel to be mentioned"
   mentionRemoveVC:
     name: "mention_removevc"
-    description: "メンションを行う対象のボイスチャットを削除する"
+    description: "Delete a voice channel from the mention list"
   timerOPTFinishTimer:
-    name: "タイマー"
-    description: "終了するタイマー"
+    name: "Timer"
+    description: "Expired timers"
   timerOPTAddTimer:
-    name: "タイマー"
-    description: "延長するタイマー"
+    name: "Timer"
+    description: "Extended timers"
   timerOPTStopTimer:
-    name: "タイマー"
-    description: "一時停止するタイマー"
+    name: "Timer"
+    description: "Paused timers"
   timerOPTRestartTimer:
-    name: "タイマー"
-    description: "再開するタイマー"
+    name: "Timer"
+    description: "Restarted timers"
   timerOPTCheckTimer:
-    name: "タイマー"
-    description: "確認するタイマー"
+    name: "Timer"
+    description: "Timers being checked"
   timerOPTMessage:
-    name: "メッセージ"
-    description: "メッセージの内容 タイマーの番号が'x'に代入されます 何も入力しないと、終了時にTTSの読み上げを行いません"
+    name: "Message"
+    description: "In the message body, the timer number will be assigned to \"x.\" If you don't enter anything, TTS readings will not be executed"
   timerOPTAddRole:
     name: "role"
-    description: "追加するロール"
+    description: "Role to add"
   timerOPTRemoveRole:
     name: "role"
-    description: "削除するロール"
+    description: "Role to remove"
   timerOPTAddVC:
     name: "channel"
-    description: "追加するボイスチャット"
+    description: "Voice channel to add"
   timerOPTRemoveVC:
     name: "channel"
-    description: "削除するボイスチャット"
+    description: "Voice chat to remove"
   timerSBZero:
     name: "lv0"
-    description: "通知を行わない"
+    description: "Do not send notifications"
   timerSBOne:
     name: "lv1"
-    description: "タイマー終了時のみ通知"
+    description: "Only send notification when timer expires"
   timerSBTwo:
     name: "lv2"
-    description: "タイマー終了時と、定期的な時間通知の時に通知"
+    description: "Send notifications when timer ends and at periodic intervals"
   timerSBThree:
     name: "lv3"
-    description: "タイマーのすべての通知（LV2に加えて、延長など）で通知"
+    description: "Send all timer notifications (includes lv2 notifications, as well timer extensions, etc.)"
   timerMentionHere:
     name: "here"
-    description: "@hereを用いたメンション"
+    description: "Mentions that used @here"
   timerMentionVC:
     name: "vc"
-    description: "ボイスチャットに接続されているメンバー"
+    description: "Members connected to the voice channel"
   timerMentionRole:
     name: "role"
-    description: "特定のロールにメンション"
+    description: "Mention specific roles"
   timerMentionTargetVC:
     name: "target_vc"
-    description: "特定のボイスチャットに接続されているメンバー"
+    description: "Members connected to a specific voice channel"
   timerMentionOff:
     name: "off"
-    description: "メンションを行わない"
+    description: "Do not send mentions"
 command:
   error: "*Command Error"
   audio:
-    settingAudio: "設定されているオーディオは%0です"
+    settingAudio: "The set audio is %0"
     name: "Title"
     link: "Link"
     copyright: "Copyright"
@@ -347,41 +347,41 @@ command:
   dice:
     selectInMenu: "Select bot from menu."
   help:
-    explanation: "解説"
+    explanation: "Explanation"
     whatIsSimpleTimer: "SimpleTimerとは"
     timerCommandsList: "タイマーコマンド一覧"
     listExplanation: "一覧機能解説"
     developInfo: "Development Information"
     sourceCode: "Souce code"
-    supportForDeveloper: "開発者へ支援"
-    show: "表示"
-    termsOfUse: "権利表示"
-    policy: "プライバシーポリシー"
+    supportForDeveloper: "Support the developer"
+    show: "Show"
+    termsOfUse: "Show terms of use"
+    policy: "Privacy Policy"
   lang:
     change: "Change language to %0."
   list:
     synced: "*This server's list was synced."
-    longLengthWarning: "*名前の文字数は10文字以下にしてください"
-    unusableCharacter: "*名前に使用できない文字が含まれています"
-    maxEntry: "*10個以上登録できません"
-    add: "一覧に追加しました"
-    missingEntryWarning: "*無効な要素です"
-    remove: "要素を削除しました"
-    clear: "すべての要素を削除しました"
-    changeChannel: "一覧からタイマーやダイスを実行するチャンネルを%0に変更しました"
-    invalidID: "*無効なIDです"
-    startSync: "同期を開始しました"
-    targetSame: "*対象のサーバーが同じサーバーです"
-    finishSync: "同期を終了しました"
-    copy: "コピーを行いました"
+    longLengthWarning: "*Names cannot exceed 10 characters"
+    unusableCharacter: "*Invalid characters used in name"
+    maxEntry: "*Cannot register more than 10"
+    add: "Added to list"
+    missingEntryWarning: "*Invalid item"
+    remove: "The item was deleted"
+    clear: "All items were deleted"
+    changeChannel: "Change the channel where timers and dice can be executed to %0"
+    invalidID: "*Invalid ID"
+    startSync: "Sync started"
+    targetSame: "*Target and source server are the same"
+    finishSync: "Sync completed"
+    copy: "Copied"
     id: |
-      IDは%0です。
-      他のサーバーで`/list_sync enable id: %0`を行うことで、このサーバーの一覧を同期でき、
-      `/list_copy id: %0`を行うことで、このサーバーの一覧をコピーできます
+      The ID is %0.
+      Run `/list_sync enable id: %0`on the other server to sync this server's list.
+      Run `/list_copy id: %0` to copy over this server's list
   queue:
-    queueNotFount: "該当のキューが見つかりません"
-    remove: "%0番目のタイマーのキューを削除しました"
-    clear: "%0番目のタイマーのキューをすべて削除しました"
+    queueNotFount: "No matching queue found"
+    remove: "The %0th queue was deleted"
+    clear: "Clear the %0th queue"
   reset:
     reset: "Reset SimpleTimer settings."
   timer:
