@@ -284,7 +284,7 @@ commandInfo:
     description: "Timers being checked"
   timerOPTMessage:
     name: "Message"
-    description: "In the message body, the timer number will be assigned to \"x.\" If you don't enter anything, TTS readings will not be executed"
+    description: "In the message body, the timer number will be assigned to \"x.\" If you don't enter anything, no TTS reading will be executed when the timer expires"
   timerOPTAddRole:
     name: "role"
     description: "Role to add"
@@ -386,8 +386,8 @@ command:
     reset: "Reset SimpleTimer settings."
   timer:
     ttsTiming: "チャットの読み上げを%0にしました"
-    maxMessageLengthWarning: "*20文字以下にしてください"
-    finishTTS: "終了時のTTSメッセージを変更しました"
+    maxMessageLengthWarning: "*Message cannot contain more than 20 characters"
+    finishTTS: "The expiry TTS message was updated"
     mentionTiming: "メンションを行うタイミングを%0にしました"
     mentionSetting: "メンションの設定を%0にしました"
     targetRole: "メンションを行う対象のロールは%0です。"
