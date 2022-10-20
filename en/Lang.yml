@@ -76,13 +76,13 @@ commandInfo:
     name: "audio_listen"
     description: "Listen to selected audio"
   audioChange:
-    name: "audio_listen"
+    name: "audio_change"
     description: "Changes the audio"
   audioList:
     name: "audio_list"
     description: "Shows a summary of the audio"
   audioOPTName:
-    name: "Name"
+    name: "name"
     description: "Audio Name"
   button:
     name: "button"
@@ -94,7 +94,7 @@ commandInfo:
     name: "Dice"
     description: "Dice Roll"
   buttonOPTDice:
-    name: "Dice"
+    name: "dice"
     description: "Dice options"
   extension:
     name: "extension"
@@ -121,10 +121,10 @@ commandInfo:
     name: "s1d100"
     description: "Rolls a 100-sided die and hides the result. For other amounts of dice and sides, you can use \"/roll xDy\""
   diceOPTDice:
-    name: "Dice"
+    name: "dice"
     description: "Dice properties, for example: 1d100"
   diceOPTBot:
-    name: "Bot"
+    name: "bot"
     description: "Bot"
   help:
     name: "help"
@@ -157,22 +157,22 @@ commandInfo:
     name: "list_id"
     description: "Get necessary IDs simultaneously"
   listOPTTimerName:
-    name: "Name"
+    name: "name"
     description: "Timer name"
   listOPTDiceName:
-    name: "Name"
+    name: "name"
     description: "Dice Name"
   listOPTDice:
-    name: "Dice"
+    name: "dice"
     description: "Dice Properties"
   listOPTElementName:
-    name: "Name"
+    name: "name"
     description: "Element Name"
   listOPTID:
     name: "id"
     description: "Enter the ID provided by the server you want to sync with"
   listOPTChannel:
-    name: "Text channel"
+    name: "text_channel"
     description: "Target channel"
   listSCTimer:
     name: "Timer"
@@ -199,19 +199,19 @@ commandInfo:
     name: "queue_clear"
     description: "Delete all items in queue"
   queueOPTAddTimer:
-    name: "Timer"
+    name: "imer"
     description: "Timers to add to queue"
   queueOPTCheckTimer:
-    name: "Timer"
+    name: "timer"
     description: "Timer to check"
   queueOPTRemoveTimer:
-    name: "Timer"
+    name: "timer"
     description: "Timer to delete from queue"
   queueOPTNumber:
-    name: "Number"
+    name: "number"
     description: "The number of the queue of the timer to delete"
   queueOPTClearTimer:
-    name: "Timer"
+    name: "timer"
     description: "Timer to delete from queue"
   reset:
     name: "reset"
@@ -268,22 +268,22 @@ commandInfo:
     name: "mention_removevc"
     description: "Delete a voice channel from the mention list"
   timerOPTFinishTimer:
-    name: "Timer"
+    name: "timer"
     description: "Expired timers"
   timerOPTAddTimer:
-    name: "Timer"
+    name: "timer"
     description: "Extended timers"
   timerOPTStopTimer:
-    name: "Timer"
+    name: "timer"
     description: "Paused timers"
   timerOPTRestartTimer:
-    name: "Timer"
+    name: "timer"
     description: "Restarted timers"
   timerOPTCheckTimer:
-    name: "Timer"
+    name: "timer"
     description: "Timers being checked"
   timerOPTMessage:
-    name: "Message"
+    name: "message"
     description: "In the message body, the timer number will be assigned to \"x.\" If you don't enter anything, no TTS reading will be executed when the timer expires"
   timerOPTAddRole:
     name: "role"
