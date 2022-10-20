@@ -175,10 +175,10 @@ commandInfo:
     name: "Text channel"
     description: "Target channel"
   listSCTimer:
-    name: "timer"
+    name: "Timer"
     description: "タイマーを一覧に追加・上書きをする"
   listSCDice:
-    name: "dice"
+    name: "Dice"
     description: "ダイスを一覧に追加・上書きをする"
   listSCSyncEnable:
     name: "enable"
