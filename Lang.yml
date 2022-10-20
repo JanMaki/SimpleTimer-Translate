@@ -174,16 +174,16 @@ commandInfo:
   listOPTChannel:
     name: "テキストチャンネル"
     description: "対象のチャンネル"
-  listSBTimer:
+  listSCTimer:
     name: "timer"
     description: "タイマーを一覧に追加・上書きをする"
-  listSBDice:
+  listSCDice:
     name: "dice"
     description: "ダイスを一覧に追加・上書きをする"
-  listSBSyncEnable:
+  listSCSyncEnable:
     name: "enable"
     description: "同期を行うようにする"
-  listSBSyncDisable:
+  listSCSyncDisable:
     name: "disable"
     description: "同期を行わないようにする"
   queue:
@@ -297,16 +297,16 @@ commandInfo:
   timerOPTRemoveVC:
     name: "channel"
     description: "削除するボイスチャット"
-  timerSBZero:
+  timerSCZero:
     name: "lv0"
     description: "通知を行わない"
-  timerSBOne:
+  timerSCOne:
     name: "lv1"
     description: "タイマー終了時のみ通知"
-  timerSBTwo:
+  timerSCTwo:
     name: "lv2"
     description: "タイマー終了時と、定期的な時間通知の時に通知"
-  timerSBThree:
+  timerSCThree:
     name: "lv3"
     description: "タイマーのすべての通知（LV2に加えて、延長など）で通知"
   timerMentionHere:
