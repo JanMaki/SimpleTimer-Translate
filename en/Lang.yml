@@ -88,10 +88,10 @@ commandInfo:
     name: "button"
     description: "Select the button for starting timers and buttons"
   buttonSCTimer:
-    name: "Timer"
+    name: "timer"
     description: "Timer"
   buttonSCDice:
-    name: "Dice"
+    name: "dice"
     description: "Dice Roll"
   buttonOPTDice:
     name: "dice"
@@ -175,10 +175,10 @@ commandInfo:
     name: "text_channel"
     description: "Target channel"
   listSCTimer:
-    name: "Timer"
+    name: "timer"
     description: "タイマーを一覧に追加・上書きをする"
   listSCDice:
-    name: "Dice"
+    name: "dice"
     description: "ダイスを一覧に追加・上書きをする"
   listSCSyncEnable:
     name: "enable"
