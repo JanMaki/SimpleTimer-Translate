@@ -55,16 +55,16 @@ commandInfo:
     name: "min"
     description: "Time in minutes"
   one:
-    name: "First timer"
+    name: "first_timer"
     description: ""
   two:
-    name: "Second timer"
+    name: "second_timer"
     description: ""
   three:
-    name: "Third timer"
+    name: "third_timer"
     description: ""
   four:
-    name: "Fourth timer"
+    name: "fourth_timer"
     description: ""
   audioConnect:
     name: "audio_connect"
@@ -226,7 +226,7 @@ commandInfo:
     name: "finish_all"
     description: "Stop all timers"
   add:
-    name: "Add"
+    name: "add"
     description: "Extend timer"
   stop:
     name: "stop"
