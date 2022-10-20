@@ -232,7 +232,7 @@ commandInfo:
     name: "stop"
     description: "Pause timer"
   restart:
-    name: "Restart"
+    name: "restart"
     description: "Unpauses the timer"
   check:
     name: "finish_all"
