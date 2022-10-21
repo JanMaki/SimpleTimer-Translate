@@ -29,9 +29,9 @@ dice:
       Rolls X amount of X sided dice
       Ex: /roll 1d100　Rolls one 100-sided dice
     plusDescription: |
-      □と■を足します
-      例１： /roll 2+5　2+5を行います 結果は7です
-      例２： /roll 1D6+1 1個6面ダイスを振った結果に+1を行います
+      Adds A and B
+      Ex. 1：/roll 2+5　Adds 2 and 5. Returns "7"
+      Ex. 2：/roll 1D6+1　Rolls 1x D6 die and adds 1 to the result
     lessThanDescription: |
       Checks if A is less than B and returns either "success" or "fail"
       Ex. 1：/roll 10<5　Checks whether 10 is less than 5. Returns "fail"
