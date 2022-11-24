@@ -294,7 +294,7 @@ commandInfo:
     description: "Timers being checked"
   timerOPTMessage:
     name: "message"
-    description: "In the message body, the timer number will be assigned to \"x.\" If you don't enter anything, no TTS reading will be executed when the timer expires"
+    description: "In the message body, the timer number will be assigned to \"x.\" "
   timerOPTAddRole:
     name: "role"
     description: "Role to add"
