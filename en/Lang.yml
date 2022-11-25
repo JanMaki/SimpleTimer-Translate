@@ -1,14 +1,14 @@
 ---
 information: |
-  Discord上で動くタイマーBot
+  Timer Bot running on Discord
 
-  **一般的なTimerBot**
-  　＋ 一時停止・再生
-  　＋ 時間追加
-  　＋ 複数同時稼働
-  　＋ 一時停止・再生
-  　＋ 残り時間表示を10秒ごとに行う
-  　＋ ボタンを用いた簡単な操作
+  **General Timer Bot**
+  　+ Pause and Play
+  　+ Add time
+  　+ Multiple simultaneous operations
+  　+ Pause/playback
+  　+ Remaining time display every 10 seconds
+  　+ Easy operation using + button
 timer:
   minutes: "%0m"
   seconds: "%0s"
@@ -294,7 +294,7 @@ commandInfo:
     description: "Timers being checked"
   timerOPTMessage:
     name: "message"
-    description: "In the message body, the timer number will be assigned to \"x.\" If you don't enter anything, no TTS reading will be executed when the timer expires"
+    description: "In the message body, the timer number will be assigned to \"x.\" "
   timerOPTAddRole:
     name: "role"
     description: "Role to add"
