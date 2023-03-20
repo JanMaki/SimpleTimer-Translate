@@ -381,6 +381,7 @@ command:
     changeChannel: "Change the channel where timers and dice can be executed to %0"
     invalidID: "*Invalid ID"
     startSync: "Sync started"
+    targetError: "*無効なチャンネルです"
     targetSame: "*Target and source server are the same"
     finishSync: "Sync completed"
     copy: "Copied"
