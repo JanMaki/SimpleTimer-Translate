@@ -381,6 +381,7 @@ command:
     changeChannel: "一覧からタイマーやダイスを実行するチャンネルを%0に変更しました"
     invalidID: "*無効なIDです"
     startSync: "同期を開始しました"
+    targetError: "*無効なチャンネルです"
     targetSame: "*対象のサーバーが同じサーバーです"
     finishSync: "同期を終了しました"
     copy: "コピーを行いました"
