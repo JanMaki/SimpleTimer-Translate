@@ -76,20 +76,23 @@ commandInfo:
   four:
     name: "fourth_timer"
     description: ""
+  audio:
+    name: "audio"
+    description: "オーディオ機能"
   audioConnect:
-    name: "audio_connect"
+    name: "connect"
     description: "Joins a voice channel"
   audioDisconnect:
-    name: "audio_disconnect"
+    name: "disconnect"
     description: "Leaves a voice channel"
   audioListen:
-    name: "audio_listen"
+    name: "listen"
     description: "Listen to selected audio"
   audioChange:
-    name: "audio_change"
+    name: "change"
     description: "Changes the audio"
   audioList:
-    name: "audio_list"
+    name: "list"
     description: "Shows a summary of the audio"
   audioOPTName:
     name: "name"
@@ -115,14 +118,17 @@ commandInfo:
   roll:
     name: "roll"
     description: "Rolls dice"
+  dice:
+    name: "dice"
+    description: "ダイス機能"
   diceMode:
-    name: "dice_mode"
+    name: "mode"
     description: "Switch between using Default dice or BCDice"
   diceInfo:
-    name: "dice_info"
+    name: "info"
     description: "Shows how to use the dice"
   diceBot:
-    name: "dice_bot"
+    name: "bot"
     description: "Change the bot used with BCDice"
   diceBasic:
     name: "1d100"
@@ -144,27 +150,36 @@ commandInfo:
     description: "Changes the language"
   list:
     name: "list"
-    description: "Show list"
-  listAdd:
-    name: "list_add"
-    description: "Add or replace an item in the list"
+    description: "一覧機能"
+  listShow:
+    name: "show"
+    description: "一覧を表示します"
+  listAddTimer:
+    name: "add_timer"
+    description: "タイマーを一覧に追加・上書きをする"
+  listAddDice:
+    name: "add_dice"
+    description: "ダイスを一覧に追加・上書きをする"
   listRemove:
-    name: "list_remove"
+    name: "remove"
     description: "Delete an item from the list"
   listClear:
-    name: "list_clear"
+    name: "clear"
     description: "Delete all items from the list"
   listTargetChannel:
-    name: "list_target"
+    name: "target"
     description: "Set the target channel for timers and dice"
   listSync:
-    name: "list_sync"
-    description: "Sync the list with another server"
+    name: "sync"
+    description: "同期を行うようにする"
+  listSyncOff:
+    name: "sync_off"
+    description: "同期を行わないようにする"
   listCopy:
-    name: "list_copy"
+    name: "copy"
     description: "Copy a list from another server"
   listID:
-    name: "list_id"
+    name: "id"
     description: "Get necessary IDs simultaneously"
   listOPTTimerName:
     name: "name"
@@ -184,29 +199,20 @@ commandInfo:
   listOPTChannel:
     name: "text_channel"
     description: "Target channel"
-  listSCTimer:
-    name: "timer"
-    description: "Add or replace a timer in the list"
-  listSCDice:
-    name: "dice"
-    description: "Add or replace a die in the list"
-  listSCSyncEnable:
-    name: "enable"
-    description: "Enable sync"
-  listSCSyncDisable:
-    name: "disable"
-    description: "Disable sync"
   queue:
     name: "queue"
-    description: "Add a timer to the queue"
+    description: "タイマーキュー"
+  queueAdd:
+    name: "add"
+    description: "タイマーをキューに追加をする"
   queueShow:
-    name: "queue_show"
+    name: "show"
     description: "View queue"
   queueRemove:
-    name: "queue_remove"
+    name: "remove"
     description: "Delete a timer from the queue"
   queueClear:
-    name: "queue_clear"
+    name: "clear"
     description: "Delete all items in queue"
   queueOPTAddTimer:
     name: "timer"
