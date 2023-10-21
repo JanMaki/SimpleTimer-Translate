@@ -253,35 +253,41 @@ commandInfo:
   check:
     name: "finish_all"
     description: "Checks a timer"
+  tts:
+    name: "tts"
+    description: "ttsによる読み上げ"
   ttsTiming:
-    name: "tts_timing"
+    name: "timing"
     description: "Adjust the TTS readings. Default value is lv0"
   ttsFinishMessage:
-    name: "tts_finishmessage"
+    name: "finishmessage"
     description: "Changes the TTS message sent when timer expires"
   mentionTiming:
-    name: "mention_timing"
+    name: "timing"
     description: "Set the timing for sending a mention. Default value is lv2"
   mention:
     name: "mention"
-    description: "Change the way mentions are sent"
+    description: "タイマーのメンションの設定"
+  mentionType:
+    name: "type"
+    description: "メンションの方式を変更する"
   mentionRole:
-    name: "mention_role"
+    name: "role"
     description: "Check the roles to be mentioned"
   mentionAddRole:
-    name: "mention_addrole"
+    name: "addrole"
     description: "Add a role to be mentioned"
   mentionRemoveRole:
-    name: "mention_removerole"
+    name: "removerole"
     description: "Delete a role from the mention list"
   mentionVC:
-    name: "mention_vc"
+    name: "vc"
     description: "Check the voice channels to be mentioned"
   mentionAddVC:
-    name: "mention_addvc"
+    name: "addvc"
     description: "Add a voice channel to be mentioned"
   mentionRemoveVC:
-    name: "mention_removevc"
+    name: "removevc"
     description: "Delete a voice channel from the mention list"
   timerOPTFinishTimer:
     name: "timer"
@@ -313,6 +319,12 @@ commandInfo:
   timerOPTRemoveVC:
     name: "channel"
     description: "Voice chat to remove"
+  timerOPTTiming:
+    name: "timing"
+    description: "通知のタイミング"
+  timerOPTType:
+    name: "type"
+    description: "メンションの方式"
   timerSCZero:
     name: "lv0"
     description: "Do not send notifications"
