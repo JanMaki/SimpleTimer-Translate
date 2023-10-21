@@ -76,6 +76,9 @@ commandInfo:
   four:
     name: "fourth_timer"
     description: ""
+  audio:
+    name: "audio"
+    description: "オーディオ再生"
   audioConnect:
     name: "audio_connect"
     description: "Joins a voice channel"

@@ -76,6 +76,9 @@ commandInfo:
   four:
     name: "4番目のタイマー"
     description: ""
+  audio:
+    name: "audio"
+    description: "オーディオ再生"
   audioConnect:
     name: "audio_connect"
     description: "ボイスチャンネルに接続する"
