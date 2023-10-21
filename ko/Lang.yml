@@ -254,35 +254,41 @@ commandInfo:
   check:
     name: "check"
     description: "タイマーを確認する"
+  tts:
+    name: "tts"
+    description: "ttsによる読み上げ"
   ttsTiming:
-    name: "tts_timing"
+    name: "timing"
     description: "ttsによるメッセージの読み上げを設定する 初期状態ではLV0"
   ttsFinishMessage:
-    name: "tts_finishmessage"
+    name: "finishmessage"
     description: "終了時のメッセージ読み上げの内容を変更する"
   mentionTiming:
-    name: "mention_timing"
+    name: "timing"
     description: "メンションを行うタイミングの設定をする 初期状態ではLV2"
   mention:
     name: "mention"
+    description: "タイマーのメンションの設定"
+  mentionType:
+    name: "type"
     description: "メンションの方式を変更する"
   mentionRole:
-    name: "mention_role"
+    name: "role"
     description: "メンションを行う対象のロールを確認する"
   mentionAddRole:
-    name: "mention_addrole"
+    name: "addrole"
     description: "メンションを行う対象のロールを追加する"
   mentionRemoveRole:
-    name: "mention_removerole"
+    name: "removerole"
     description: "メンションを行う対象のロールを削除する"
   mentionVC:
-    name: "mention_vc"
+    name: "vc"
     description: "メンションを行う対象のボイスチャットを確認する"
   mentionAddVC:
-    name: "mention_addvc"
+    name: "addvc"
     description: "メンションを行う対象のボイスチャットを追加する"
   mentionRemoveVC:
-    name: "mention_removevc"
+    name: "removevc"
     description: "メンションを行う対象のボイスチャットを削除する"
   timerOPTFinishTimer:
     name: "タイマー"
@@ -314,6 +320,12 @@ commandInfo:
   timerOPTRemoveVC:
     name: "channel"
     description: "削除するボイスチャット"
+  timerOPTTiming:
+    name: "timing"
+    description: "通知のタイミング"
+  timerOPTType:
+    name: "type"
+    description: "メンションの方式"
   timerSCZero:
     name: "lv0"
     description: "通知を行わない"
