@@ -118,6 +118,9 @@ commandInfo:
   roll:
     name: "roll"
     description: "Rolls dice"
+  dice:
+    name: "dice"
+    description: "ダイスを振ります"
   diceMode:
     name: "dice_mode"
     description: "Switch between using Default dice or BCDice"
@@ -202,6 +205,9 @@ commandInfo:
   queue:
     name: "queue"
     description: "Add a timer to the queue"
+  queueAdd:
+    name: "add"
+    description: "タイマーをキューに追加をする"
   queueShow:
     name: "queue_show"
     description: "View queue"

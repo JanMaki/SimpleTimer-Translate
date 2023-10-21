@@ -118,6 +118,9 @@ commandInfo:
   roll:
     name: "roll"
     description: "ダイスを振ります"
+  dice:
+    name: "dice"
+    description: "ダイスを振ります"
   diceMode:
     name: "dice_mode"
     description: "使うダイスをDefaultかBCDiceかを切り替える"
@@ -201,6 +204,9 @@ commandInfo:
     description: "同期を行わないようにする"
   queue:
     name: "queue"
+    description: "タイマーをキューに追加をする"
+  queueAdd:
+    name: "add"
     description: "タイマーをキューに追加をする"
   queueShow:
     name: "queue_show"
