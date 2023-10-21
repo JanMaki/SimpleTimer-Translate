@@ -78,21 +78,21 @@ commandInfo:
     description: ""
   audio:
     name: "audio"
-    description: "オーディオ再生"
+    description: "オーディオ機能"
   audioConnect:
-    name: "audio_connect"
+    name: "connect"
     description: "ボイスチャンネルに接続する"
   audioDisconnect:
-    name: "audio_disconnect"
+    name: "disconnect"
     description: "ボイスチャンネルから抜ける"
   audioListen:
-    name: "audio_listen"
+    name: "listen"
     description: "設定されているオーディオを試聴する"
   audioChange:
-    name: "audio_change"
+    name: "change"
     description: "オーディオを変更する"
   audioList:
-    name: "audio_list"
+    name: "list"
     description: "オーディオの一覧を表示します"
   audioOPTName:
     name: "名前"
@@ -120,15 +120,15 @@ commandInfo:
     description: "ダイスを振ります"
   dice:
     name: "dice"
-    description: "ダイスを振ります"
+    description: "ダイス機能"
   diceMode:
-    name: "dice_mode"
+    name: "mode"
     description: "使うダイスをDefaultかBCDiceかを切り替える"
   diceInfo:
-    name: "dice_info"
+    name: "info"
     description: "ダイスの使い方を表示する"
   diceBot:
-    name: "dice_bot"
+    name: "bot"
     description: "BCDiceで使用するボットを変更します"
   diceBasic:
     name: "1d100"
@@ -150,27 +150,36 @@ commandInfo:
     description: "言語を変更する"
   list:
     name: "list"
+    description: "一覧機能"
+  listShow:
+    name: "show"
     description: "一覧を表示します"
-  listAdd:
-    name: "list_add"
-    description: "一覧に要素を追加・上書きをします"
+  listAddTimer:
+    name: "add_timer"
+    description: "タイマーを一覧に追加・上書きをする"
+  listAddDice:
+    name: "add_dice"
+    description: "ダイスを一覧に追加・上書きをする"
   listRemove:
-    name: "list_remove"
+    name: "remove"
     description: "一覧から要素を削除をします"
   listClear:
-    name: "list_clear"
+    name: "clear"
     description: "一覧の要素をすべて削除します"
   listTargetChannel:
-    name: "list_target"
+    name: "target"
     description: "タイマーやダイスを送信するチャンネルを設定する"
   listSync:
-    name: "list_sync"
-    description: "一覧を他のサーバーと同期します"
+    name: "sync"
+    description: "同期を行うようにする"
+  listSyncOff:
+    name: "sync_off"
+    description: "同期を行わないようにする"
   listCopy:
-    name: "list_copy"
+    name: "copy"
     description: "他のサーバーの一覧をコピーします"
   listID:
-    name: "list_id"
+    name: "id"
     description: "同期に必要なIDを取得します"
   listOPTTimerName:
     name: "名前"
@@ -190,32 +199,20 @@ commandInfo:
   listOPTChannel:
     name: "テキストチャンネル"
     description: "対象のチャンネル"
-  listSCTimer:
-    name: "timer"
-    description: "タイマーを一覧に追加・上書きをする"
-  listSCDice:
-    name: "dice"
-    description: "ダイスを一覧に追加・上書きをする"
-  listSCSyncEnable:
-    name: "enable"
-    description: "同期を行うようにする"
-  listSCSyncDisable:
-    name: "disable"
-    description: "同期を行わないようにする"
   queue:
     name: "queue"
-    description: "タイマーをキューに追加をする"
+    description: "タイマーキュー"
   queueAdd:
     name: "add"
     description: "タイマーをキューに追加をする"
   queueShow:
-    name: "queue_show"
+    name: "show"
     description: "キューを確認する"
   queueRemove:
-    name: "queue_remove"
+    name: "remove"
     description: "キューからタイマーを削除する"
   queueClear:
-    name: "queue_clear"
+    name: "clear"
     description: "キュー全て削除する"
   queueOPTAddTimer:
     name: "タイマー"
