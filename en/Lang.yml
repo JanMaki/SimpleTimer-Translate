@@ -153,13 +153,13 @@ commandInfo:
     description: "一覧機能"
   listShow:
     name: "show"
-    description: "一覧を表示します"
+    description: "Show list"
   listAddTimer:
     name: "add_timer"
-    description: "タイマーを一覧に追加・上書きをする"
+    description: "Add or replace a timer in the list"
   listAddDice:
     name: "add_dice"
-    description: "ダイスを一覧に追加・上書きをする"
+    description: "Add or replace a dice in the list"
   listRemove:
     name: "remove"
     description: "Delete an item from the list"
@@ -171,10 +171,10 @@ commandInfo:
     description: "Set the target channel for timers and dice"
   listSync:
     name: "sync"
-    description: "同期を行うようにする"
+    description: "Enable sync"
   listSyncOff:
     name: "sync_off"
-    description: "同期を行わないようにする"
+    description: "Disable sync"
   listCopy:
     name: "copy"
     description: "Copy a list from another server"
@@ -387,7 +387,7 @@ command:
     changeChannel: "Change the channel where timers and dice can be executed to %0"
     invalidID: "*Invalid ID"
     startSync: "Sync started"
-    targetError: "*無効なチャンネルです"
+    targetError: "*Invalid channel"
     targetSame: "*Target and source server are the same"
     finishSync: "Sync completed"
     copy: "Copied"
