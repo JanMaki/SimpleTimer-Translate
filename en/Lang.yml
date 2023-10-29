@@ -155,10 +155,10 @@ commandInfo:
     name: "show"
     description: "Show list"
   listAddTimer:
-    name: "add_timer"
+    name: "addtimer"
     description: "Add or replace a timer in the list"
   listAddDice:
-    name: "add_dice"
+    name: "adddice"
     description: "Add or replace a dice in the list"
   listRemove:
     name: "remove"
@@ -173,7 +173,7 @@ commandInfo:
     name: "sync"
     description: "Enable sync"
   listSyncOff:
-    name: "sync_off"
+    name: "syncoff"
     description: "Disable sync"
   listCopy:
     name: "copy"
@@ -239,7 +239,7 @@ commandInfo:
     name: "finish"
     description: "Stop timer"
   finishAll:
-    name: "finish_all"
+    name: "finishall"
     description: "Stop all timers"
   add:
     name: "add"
