@@ -156,10 +156,10 @@ commandInfo:
     name: "show"
     description: "一覧を表示します"
   listAddTimer:
-    name: "add_timer"
+    name: "addtimer"
     description: "タイマーを一覧に追加・上書きをする"
   listAddDice:
-    name: "add_dice"
+    name: "adddice"
     description: "ダイスを一覧に追加・上書きをする"
   listRemove:
     name: "remove"
@@ -174,7 +174,7 @@ commandInfo:
     name: "sync"
     description: "同期を行うようにする"
   listSyncOff:
-    name: "sync_off"
+    name: "syncoff"
     description: "同期を行わないようにする"
   listCopy:
     name: "copy"
@@ -240,7 +240,7 @@ commandInfo:
     name: "finish"
     description: "タイマーを終了する"
   finishAll:
-    name: "finish_all"
+    name: "finishall"
     description: "すべてのタイマーを終了する"
   add:
     name: "add"
