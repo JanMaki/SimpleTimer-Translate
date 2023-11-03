@@ -155,10 +155,10 @@ commandInfo:
     name: "show"
     description: "一覧を表示します"
   listAddTimer:
-    name: "add_timer"
+    name: "addtimer"
     description: "タイマーを一覧に追加・上書きをする"
   listAddDice:
-    name: "add_dice"
+    name: "adddice"
     description: "ダイスを一覧に追加・上書きをする"
   listRemove:
     name: "remove"
