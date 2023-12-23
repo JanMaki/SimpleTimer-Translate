@@ -25,6 +25,7 @@ timer:
   timerMaxWarning: ":x: これ以上タイマーを動かすことはできません（最大: 4）"
   queueNumber: "%0番目のキュー"
   timerNotMoveWarning: "*タイマーは動いていません"
+  mentionOmit: "*メンションの対象が多すぎるため、省略しました"
 dice:
   secret: "(シークレットダイス)"
   longRangeWaring: |
