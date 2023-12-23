@@ -26,6 +26,7 @@ timer:
   timerMaxWarning: ":x: Cannot start any more timers (max: 4)"
   queueNumber: "%0th queue"
   timerNotMoveWarning: "*No timers are running"
+  mentionOmit: "*メンションの対象が多すぎるため、省略しました"
 dice:
   secret: "(Secret Dice)"
   longRangeWaring: |
