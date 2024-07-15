@@ -26,6 +26,7 @@ timer:
   queueNumber: "%0番目のキュー"
   timerNotMoveWarning: "*タイマーは動いていません"
   mentionOmit: "*メンションの対象が多すぎるため、省略しました"
+  outOfRangeValueWarning: "値が大きすぎます"
 dice:
   secret: "(シークレットダイス)"
   longRangeWaring: |
